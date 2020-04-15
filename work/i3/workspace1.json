@@ -1,0 +1,67 @@
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 505,
+       "width": 655,
+       "x": 0,
+       "y": 0
+    },
+    "name": "Cisco AnyConnect Secure Mobility Client",
+    "percent": 0.133333333333333,
+    "swallows": [
+       {
+         "class": "^Cisco\\ AnyConnect\\ Secure\\ Mobility\\ Client$",
+         "instance": "^Cisco\\ AnyConnect\\ Secure\\ Mobility\\ Client$",
+         "title": "^Cisco\\ AnyConnect\\ Secure\\ Mobility\\ Client$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 705,
+       "width": 1717,
+       "x": 0,
+       "y": 0
+    },
+    "name": "i3-save-tree /home/cjohn1k2030/.config/i3",
+    "percent": 0.283333333333333,
+    "swallows": [
+       {
+         "class": "^kitty$",
+         "instance": "^kitty$",
+         "title": "^i3\\-save\\-tree\\ \\/home\\/cjohn1k2030\\/\\.config\\/i3$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 3,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1415,
+       "width": 1717,
+       "x": 0,
+       "y": 0
+    },
+    "name": "Mozilla Firefox",
+    "percent": 0.583333333333333,
+    "swallows": [
+       {
+         "class": "^firefox$",
+         "instance": "^Navigator$",
+         "title": "^Mozilla\\ Firefox$",
+         "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+
