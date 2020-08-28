@@ -1,0 +1,4 @@
+function blastoff
+echo "🚀"
+end
+
