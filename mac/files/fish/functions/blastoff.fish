@@ -1,4 +1,0 @@
-function blastoff
-echo "🚀"
-end
-
