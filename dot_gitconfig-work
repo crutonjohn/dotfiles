@@ -1,0 +1,3 @@
+[user]
+	name = {{ (bitwardenFields "item" "2252ba29-2bd8-44f0-8481-7e65c9688eb5").name.value }}
+	email = {{ (bitwardenFields "item" "2252ba29-2bd8-44f0-8481-7e65c9688eb5").work_email.value }}
