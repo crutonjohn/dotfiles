@@ -6,3 +6,5 @@
   path = ~/.gitconfig-personal
 [includeIf "gitdir:~/Projects/github/work/"]
   path = ~/.gitconfig-work
+[includeIf "gitdir:~/Projects/github/fake/"]
+  path = ~/.gitconfig-work

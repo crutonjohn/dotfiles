@@ -3,3 +3,14 @@
 	name = {{ (bitwardenFields "item" "2252ba29-2bd8-44f0-8481-7e65c9688eb5").name.value }}
 	signingkey = {{ (bitwardenFields "item" "2252ba29-2bd8-44f0-8481-7e65c9688eb5").personal_signingkey.value }}
 
+[commit]
+	# https://help.github.com/articles/signing-commits-using-gpg/
+	#gpgsign = true
+
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+
+[core]
+	excludesfile = ~/.gitignore
