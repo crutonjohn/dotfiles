@@ -1,11 +1,21 @@
 add_newline = true
-prompt_order = ["username", "kubernetes", "aws", "directory", "git_branch", "git_status", "character"]
+#prompt_order = ["username", "kubernetes", "aws", "directory", "git_branch", "git_status", "character"]
+
+format = """\
+  $username\
+  $kubernetes\
+  $aws\
+  $directory\
+  $git_branch\
+  $git_status\
+  $character\
+  """
 
 [aws]
 format = "on [$symbol$profile( $region)]($style) "
 style = "bold Yellow"
 displayed_items = "region"
-symbol = "☁️  "
+symbol = "☁️"
 
 [aws.region_aliases]
 af-south-1 = "Cape Town"
@@ -40,7 +50,7 @@ disabled = false
 style = "bold yellow"
 
 [kubernetes]
-symbol = "☸️  "
+symbol = "☸️"
 style = "bold purple"
 disabled = false
 [kubernetes.context_aliases]
