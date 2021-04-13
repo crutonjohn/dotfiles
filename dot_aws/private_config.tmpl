@@ -4,5 +4,8 @@ region = us-east-1
 [personal]
 region = {{ (bitwardenFields "item" "572d0a66-4ede-4f48-ab96-19c41c63ce17").personal_region.value }}
 
+[two]
+region = region = {{ (bitwardenFields "item" "bc50bb66-3df4-45f9-bd89-c02121132aaf").region.value }}
+
 [plugins]
 endpoint = awscli_plugin_endpoint
