@@ -12,10 +12,10 @@ format = """\
   """
 
 [aws]
-format = "on [$symbol$profile( $region)]($style) "
+format = "apf[$profile( $region)]($style) "
 style = "bold Yellow"
 displayed_items = "region"
-symbol = "☁️ "
+#symbol = "☁️"
 
 [aws.region_aliases]
 af-south-1 = "Cape Town"
@@ -50,7 +50,7 @@ disabled = false
 style = "bold yellow"
 
 [kubernetes]
-symbol = "☸️ "
+symbol = ""
 style = "bold purple"
 disabled = false
 [kubernetes.context_aliases]
