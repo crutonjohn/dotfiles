@@ -1,0 +1,7 @@
+{
+  "path": "@metahub/cz-conventional-commit",
+  "cz-conventional-commit": {
+    "maxSubjectLength": 72,
+    "bodyLineLength": 100
+  }
+}
