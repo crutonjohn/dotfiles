@@ -2,5 +2,8 @@
   path = ~/.gitconfig-personal
 [includeIf "gitdir:~/.local/share/chezmoi/"]
   path = ~/.gitconfig-personal
-[includeIf "gitdir:~/Projects/Work/"]
-  path = ~/.gitconfig-work
+[includeIf "gitdir:~/Projects/Work/dev"]
+  path = ~/.gitconfig-work-dev
+[includeIf "gitdir:~/Projects/Work/prd"]
+  path = ~/.gitconfig-work-prd
+
